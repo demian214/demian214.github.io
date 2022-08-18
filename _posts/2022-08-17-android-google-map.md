@@ -18,11 +18,9 @@ tags: Android
 
 ## 다양한 위치정보
 
-도    .    분    .    초     →    Location 객체    →    LatLng 객체
+도.분.초(일상에서의 위치정보) → Location 객체(도.실수값) → LatLng 객체(지도에서 좌표값)
 
-일상에서의 위치정보        도.실수값       ×100만    지도에서 좌표값
-
-## 프로그램
+## 작동구조
 
 LocationManager
 
@@ -31,7 +29,6 @@ LocationManager
 LocationProvider - 최적의 위치정보 제공자    
 
 - GPS
-
 - Network
 
 위치정보를 제공받는다.
@@ -49,5 +46,4 @@ LocationListener
 ## 지도(Map)
 
 → 맵서버(Google, Daum, Naver)
-
 회원가입/인증 → 인증키 발급
