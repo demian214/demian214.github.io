@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Android] Google Map 서비스 (1)
-subtitle: 위도, 경도를 이용한 좌표값 이용하
-categories: markdown
-tags: [Android]
+title: Android Google Map 서비스 (1)
+subtitle: 위도, 경도를 이용한 좌표값 이용하기
+categories: Android
+tags: Android
 ---
 
 ## 위치정보(위도, 경도, 고도)
@@ -16,15 +16,11 @@ tags: [Android]
 
 [런던](https://ko.wikipedia.org/wiki/%EB%9F%B0%EB%8D%98 "런던") 근교의 [그리니치 천문대](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A6%AC%EB%8B%88%EC%B9%98_%EC%B2%9C%EB%AC%B8%EB%8C%80 "그리니치 천문대")의 바로 밑을 통과하는 자오선([그리니치 자오선](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A6%AC%EB%8B%88%EC%B9%98_%EC%9E%90%EC%98%A4%EC%84%A0 "그리니치 자오선"))이 [본초 자오선](https://ko.wikipedia.org/wiki/%EB%B3%B8%EC%B4%88_%EC%9E%90%EC%98%A4%EC%84%A0 "본초 자오선")에 선정되고 있다. 이것보다 더 동쪽에 있는 지점은 [동반구](https://ko.wikipedia.org/wiki/%EB%8F%99%EB%B0%98%EA%B5%AC "동반구"), 서쪽에 있는 지점은 [서반구](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B0%98%EA%B5%AC "서반구")에서 있다. 그리니치의 대척지의 [경도](https://ko.wikipedia.org/wiki/%EA%B2%BD%EB%8F%84 "경도")는 서경 180°이며 동경 180°이다.
 
-
-
 ## 다양한 위치정보
 
 도    .    분    .    초     →    Location 객체    →    LatLng 객체
 
 일상에서의 위치정보        도.실수값       ×100만    지도에서 좌표값
-
-
 
 ## 프로그램
 
@@ -50,18 +46,8 @@ LocationListener
 
 ② 자동으로 표시
 
-
-
 ## 지도(Map)
 
 → 맵서버(Google, Daum, Naver)
 
 회원가입/인증 → 인증키 발급
-
-
-
-
-
-
-
-
