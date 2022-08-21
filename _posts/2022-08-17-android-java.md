@@ -3,7 +3,7 @@ layout: post
 title: Android Google Map 서비스 (1)
 subtitle: 위도, 경도를 이용한 좌표값 이용하기
 categories: Android
-tags: Android
+tags: Android Java
 ---
 
 ## 위치정보(위도, 경도, 고도)
